@@ -6,7 +6,7 @@ This project provides an ubus-based control interface for controlling ESP device
   + Detects all connected ESP devices
   + Uses serial for sending commands
   + Creates a seperate ubus service for each connected ESP device.
-  + ESP device control (GPIO, Temperature sensors) via UBUS
+  + ESP device control and monitoring (GPIO, Temperature sensors) via UBUS
     
 ## Prerequisites
   + ESP Microcontroller(s) with special firmware (https://github.com/janenasl/esp_control_over_serial)
